@@ -1,0 +1,89 @@
+<html>
+<head>
+<style>
+.select{
+  margin-right: 12%;
+  float: left;
+}
+</style>
+</head>
+<body>
+<h2>Department Store</h2>
+<form action="http://localhost/DeptStore.py" method="get">
+<div class = "container">
+<div class="container1"><br>
+<b>Enter customer name:</b><br><input type="text", name= "name"><br><br>
+<b>Enter phone number:</b><br><input type="text", name= "pno"><br><br>
+<b>Enter address:</b><br><textarea name="add" rows="5" cols="40"></textarea><br><br>
+<div class = "container">
+<div class="select">
+<b>Select Items:</b><br>
+<input type="checkbox" name="items" value="ice">Ice-cream<br>
+<input type="checkbox" name="items" value="choco">Chocolate<br>
+<input type="checkbox" name="items" value="chips">Chips<br>
+<input type="checkbox" name="items" value="apples">Apples<br>
+<input type="checkbox" name="items" value="ramen">Ramen<br>
+<input type="checkbox" name="items" value="nbook">Notebook<br><br>
+</div>
+<div class="select">
+<b>Enter Quantity:</b><br>
+<select name="qty">
+  <option value="100">1</option>
+  <option value="200">2</option>
+  <option value="300">3</option>
+  <option value="400">4</option>
+  <option value="500">5</option>
+</select><br>
+<select name="qty">
+  <option value="60">1</option>
+  <option value="120">2</option>
+  <option value="180">3</option>
+  <option value="240">4</option>
+  <option value="300">5</option>
+</select><br>
+<select name="qty">
+  <option value="75">1</option>
+  <option value="150">2</option>
+  <option value="225">3</option>
+  <option value="300">4</option>
+  <option value="375">5</option>
+</select><br>
+<select name="qty">
+  <option value= "100">1</option>
+  <option value= "200">2</option>
+  <option value= "300">3</option>
+  <option value="400">4</option>
+  <option value="500">5</option>
+</select><br>
+<select name="qty">
+  <option value="80">1</option>
+  <option value="160">2</option>
+  <option value="240">3</option>
+  <option value="320">4</option>
+  <option value="400">5</option>
+</select><br>
+<select name="qty">
+  <option value="90">1</option>
+  <option value="180">2</option>
+  <option value="270">3</option>
+  <option value="360">4</option>
+  <option value="450">5</option>
+</select><br>
+</div>
+
+<div class="select">
+<b>Price:</b><br>
+Rs. 100<br>
+Rs. 60<br>
+Rs. 75<br>
+Rs. 100<br>
+Rs. 80<br>
+Rs. 90<br>
+</div>
+</div>
+</div>
+<br><br><br><br><br><br><br><br><br><hr><br>
+<input type="submit" name ="Submit", value="Add to Cart"><br><br><br>
+</form>
+</body>
+</html>
